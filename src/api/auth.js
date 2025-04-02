@@ -1,3 +1,5 @@
+// Login and Register
+
 const API_URL = "http://localhost:8080/auth";
 
 export async function registerUser({ email, username, password }) {

@@ -22,7 +22,7 @@ const Login = () => {
             setErrorMessage(result.error);
         } else {
             handleLogin(result.token, result.email, result.username);
-            navigate('/chats');
+            navigate('/contacts');
         }
     };
 
