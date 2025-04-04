@@ -52,7 +52,7 @@ const Login = () => {
             {errorMessage && <div className="error-message">{errorMessage}</div>}
 
             <p>
-                Don't have an account? <Link to="/auth/register">Sign up here</Link>
+                Don't have an account? <Link to="/register">Sign up here</Link>
             </p>
         </div>
     );

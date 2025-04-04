@@ -22,7 +22,7 @@ const Register = () => {
             setResponseMessage(result.error);
         } else {
             setResponseMessage(result.message);
-            setTimeout(() => navigate('/auth/login'), 1000);
+            setTimeout(() => navigate('/'), 1000);
         }
     };
 
